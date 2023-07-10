@@ -1,0 +1,150 @@
+/* SeatSelection.css */
+.seat-selection-container {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #2d3748;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  .scene-container {
+    margin-top: 70px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .seats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .mt-5 {
+    margin-top: 0px;
+  }
+  
+  .seat {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    color: #555;
+  }
+  
+  .seat:hover {
+    background-color: #bada55;
+  }
+  
+  .selected {
+    background-color: #e5243b;
+    color: #fff;
+  }
+  
+  .occupied {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .seat-row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .seat-row span {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .seat-row .gap {
+    width: 70px;
+  }
+  
+  .credit-card-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .credit-card-details {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #0069d9;
+  }

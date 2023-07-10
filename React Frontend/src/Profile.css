@@ -1,0 +1,22 @@
+.movie-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  .movie-table td {
+    padding: 30px;
+    border: 1mm ridge rgba(34, 63, 88, 0.6);  }
+  
+  .movie-table td img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
